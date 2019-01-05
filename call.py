@@ -5,7 +5,7 @@
 import os
 import subprocess as sp
 os.system('clear')
-print("[!] Please Wait...")
+print("\033[1;33m[!] Please Wait...")
 sp.call('pip install requests', shell=True, stdout=sp.DEVNULL, stderr=sp.STDOUT)
 import requests
 
