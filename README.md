@@ -5,7 +5,7 @@ Spam telepon massal hasil modif dari script WidhiSec
 $ pkg update && pkg upgrade<br>
 $ pkg install python<br>
 $ pkg install git<br>
-$ git clone https://github.com/KANG-NEWBIE/SpamTele<br>
+$ git clone https://github.com/KANG-NEWBIE/C-SpamMasal<br>
 $ cd C-SpamMasal<br>
 $ python call.py<br>
 
