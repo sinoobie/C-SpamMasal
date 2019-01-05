@@ -1,4 +1,4 @@
-# SpamTele
+# Spam Telpon Masal
 Spam telepon massal hasil modif dari script WidhiSec
 
 # How To Install
