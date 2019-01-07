@@ -2,8 +2,21 @@
 # Thanks To Aylward Hxr
 # (c) Hax28dh8Sec
 # modif by KANG-NEWBIE
-import os
+print()
+buriq = ("dih mukon!!")
+jeleq = ("nyadar juga elu ya babyk")
+tanya = input("kamu ganteng? (jelas/ngak) ")
+if tanya == 'jelas':
+	print(buriq)
+elif tanya == 'ngak':
+	print(jeleq)
+else:
+	exit("ngetik yang bener goblok!!\n")
+print()
+
+import os, time
 import subprocess as sp
+time.sleep(3)
 os.system('clear')
 print("\033[1;33m[!] Please Wait...")
 sp.call('pip install requests', shell=True, stdout=sp.DEVNULL, stderr=sp.STDOUT)
