@@ -3,16 +3,14 @@
 # (c) Hax28dh8Sec
 # modif by KANG-NEWBIE
 
+import os
+import subprocess as sp
+os.system('clear')
+print("\033[1;33m[!] Please Wait...")
+sp.call('pip install requests', shell=True, stdout=sp.DEVNULL, stderr=sp.STDOUT)
+import requests
 
 def spam():
-	import os, time
-	import subprocess as sp
-	time.sleep(1)
-	os.system('clear')
-	print("\033[1;33m[!] Please Wait...")
-	sp.call('pip install requests', shell=True, stdout=sp.DEVNULL, stderr=sp.STDOUT)
-	import requests
-
 	os.system("clear")
 	print("""
 \033[1;32m+---------------------------------------+
@@ -39,21 +37,9 @@ def spam():
 
 
 print()
-buriq = ("dih mukon!!")
-jeleq = ("nyadar juga elu ya babyk")
-tanya = input("kamu ganteng? (jelas/ngak) ")
-if tanya == 'jelas':
-        print(buriq), spam()
-elif tanya == 'ngak':
-        print(jeleq), spam()
-else:
-        exit("ngetik yang bener goblok!!\n")
-print()
-
-pilih = input("lagi ngak cok? (y/n) ")
-if pilih == 'y':
+pilih = 'y'
+while (pilih != 'n'):
 	spam()
-elif pilih == 'n':
-	exit("oke deh sampai jumpa lagi beb:*\n")
-else:
-	exit("anda buntung ya?\n")
+	pilih = input("\nspam lagi? (y/n) ")
+	if pilih == 'n':
+		print("oke, sampai jumpa lagi bosq\n")
