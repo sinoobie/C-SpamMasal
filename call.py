@@ -50,7 +50,7 @@ else:
         exit("ngetik yang bener goblok!!\n")
 print()
 
-pilih = input("lagi ngak cok (y/n) ")
+pilih = input("lagi ngak cok? (y/n) ")
 if pilih == 'y':
 	spam()
 elif pilih == 'n':
