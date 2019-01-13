@@ -8,6 +8,7 @@ tinggal pake aja susah amat sih?!
 
 try:
 	import os
+	from time import sleep as turu
 	import subprocess as sp
 	os.system('clear')
 	print("\033[1;33m[!] Please Wait...")
@@ -37,9 +38,12 @@ try:
 	while True:
 		r = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no)
 		print("[+] Target 1",r.json()["msg"])
+		turu(3)
 		r1 = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no1)
 		print("[+] Target 2",r1.json()["msg"])
+		turu(3)
 		r2 = requests.get('https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor='+no2)
-		print("[+] Target 3",r.json()["msg"])
+		print("[+] Target 3",r2.json()["msg"])
+		turu(3)
 except KeyboardInterrupt:
 	exit("\nBye...")
