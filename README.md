@@ -1,3 +1,6 @@
+# UPDATE!!!
+Update Spam Call Massal Nonstop!!
+
 # Spam Telpon Masal
 Spam telepon massal hasil modif dari script WidhiSec
 
