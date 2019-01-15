@@ -25,7 +25,7 @@ try:
    _  _     \033[1;36mSPAM CALL MASSAL NONSTOP\033[1;32m
  _| || |_   \033[1;31mCODED BY : KANG-NEWBIE\033[1;32m
 |_  ..  _|  \033[1;31mContact : https://t.me/kang_nuubi\033[1;32m
-|_      _|  \033[1;31mgithub : https://github.com/KANG-NRWBIE\033[1;32m
+|_      _|  \033[1;31mgithub : https://github.com/KANG-NEWBIE\033[1;32m
   |_||_|    \033[1;33mCTRL + C Untuk Stop\033[32m
 """)
 	print("[*] Klik ENTER untuk melewati step")
