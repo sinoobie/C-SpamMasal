@@ -1,11 +1,11 @@
 # UPDATE!!!
-- V.3.0 (new)
-Update API
-Update Interface
-Remove old tools
+- V.3.0 (new)<br>
+Update API<br>
+Update Interface<br>
+Remove old tools<br>
 
-- V.2.0 (old)
-Add new tools (nonstop.py)
+- V.2.0 (old)<br>
+Add new tools (nonstop.py)<br>
 
 # Spam Telpon Masal
 Spam telepon massal hasil modif dari script WidhiSec
