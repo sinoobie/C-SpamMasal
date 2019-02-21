@@ -36,9 +36,9 @@ try:
 	no1 = input("[?] INPUT NO TARGET 1 => %s"%(w))
 	no2 = input("%s[?] INPUT NO TARGET 2 => %s"%(g,w))
 	no3 = input("%s[?] INPUT NO TARGET 3 => %s"%(g,w))
-	dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'&templateID':'pax_android_production'}
-	dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'&templateID':'pax_android_production'}
-	dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'&templateID':'pax_android_production'}
+	dt1={'method':'CALL','countryCode':'id','phoneNumber':no1,'templateID':'pax_android_production'}
+	dt2={'method':'CALL','countryCode':'id','phoneNumber':no2,'templateID':'pax_android_production'}
+	dt3={'method':'CALL','countryCode':'id','phoneNumber':no3,'templateID':'pax_android_production'}
 except ValueError:
 	print("%s\nMasukan Angka Untuk Delay"%(r))
 	exit()
