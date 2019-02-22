@@ -17,4 +17,4 @@ $ cd C-SpamMasal<br>
 $ python callmas.py<br>
 
 <b>NOTE:</b><br>
-Cek project saya lainnya <a herf="https://github.com/KANG-NEWBIE?tab=repositories">Disini</a>
+Cek project saya lainnya <a href="https://github.com/KANG-NEWBIE?tab=repositories">Disini</a>
