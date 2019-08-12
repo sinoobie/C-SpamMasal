@@ -44,8 +44,8 @@ try:
 	for i in range(jlmh):
 		cout=1
 		print(f"{'{'}{i+1}{'}'}"+"="*40+f"{'{'}{i+1}{'}'}")
-		for xi in no1,no2,no3:
-			if xi == '':
+		for i in no1,no2,no3:
+			if i == '':
 				cout+=1
 				continue
 			dt={'method':'CALL','countryCode':'id','phoneNumber':i,'templateID':'pax_android_production'}
@@ -74,7 +74,7 @@ try:
 				print(f"[+] {c}TARGET{cout} {g}BERHASIL{w}")
 			else:
 				print(f"[-] {c}TARGET{cout} {r}GAGAL{w}")
-			time.sleep(1)
+			time.sleep(5)
 			cout+=1
 	print("{end}"+"="*40+"{end}")
 except KeyboardInterrupt:
