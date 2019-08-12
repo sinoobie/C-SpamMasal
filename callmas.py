@@ -74,7 +74,7 @@ try:
 				print(f"[+] {c}TARGET{cout} {g}BERHASIL{w}")
 			else:
 				print(f"[-] {c}TARGET{cout} {r}GAGAL{w}")
-			time.sleep(5)
+			time.sleep(10)
 			cout+=1
 	print("{end}"+"="*40+"{end}")
 except KeyboardInterrupt:
